@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <RollForward>LatestMajor</RollForward>
+    <RootNamespace>Kinevor.Modules.Memberships.DemoApi</RootNamespace>
+    <UserSecretsId>kinevor-memberships-demo-api</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Kinevor.Modules.Memberships.EntityFrameworkCore\Kinevor.Modules.Memberships.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\src\Kinevor.Modules.Memberships\Kinevor.Modules.Memberships.csproj" />
+  </ItemGroup>
+</Project>

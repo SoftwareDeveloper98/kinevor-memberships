@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/Kinevor.Modules.Memberships.DemoApi/Kinevor.Modules.Memberships.DemoApi.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Kinevor.Modules.Memberships.EntityFrameworkCore/Kinevor.Modules.Memberships.EntityFrameworkCore.csproj" />
+    <Project Path="src/Kinevor.Modules.Memberships/Kinevor.Modules.Memberships.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Kinevor.Modules.Memberships.Tests/Kinevor.Modules.Memberships.Tests.csproj" />
+  </Folder>
+</Solution>
